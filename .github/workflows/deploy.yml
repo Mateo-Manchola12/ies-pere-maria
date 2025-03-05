@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy via SSH
         run: |
-          ssh ubuntu@IP-DEL-HOST << 'EOF'
+          ssh ubuntu@54.158.57.43 << 'EOF'
             cd ies-pere-maria
             sh deploy.sh
           EOF
